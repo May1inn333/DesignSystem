@@ -34,3 +34,16 @@ ul {
 .nav-item-active {
   transform: rotate(-8.428deg);
 }
+
+.header {
+  position: absolute;
+  padding-top: 50px;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  padding-left: 1200px;
+}
+
+.menu-item {
+  transform: rotate(-8.43deg);
+}

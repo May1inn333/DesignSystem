@@ -45,3 +45,29 @@
 .nav-item-active {
   color: var(--Pink, #e50072);
 }
+
+.menu-item {
+  color: #222b2a;
+  font-family: Oswald;
+  font-size: 17.672px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.884px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  color: var(--Pink, #e50072);
+  transition: color 0.5s ease;
+}
+
+strong {
+  color: var(--Pink, #e50072);
+}
