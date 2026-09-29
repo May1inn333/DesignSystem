@@ -47,3 +47,31 @@ ul {
 .menu-item {
   transform: rotate(-8.43deg);
 }
+
+.button-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 14px;
+  padding-top: 150px;
+  padding-left: 90px;
+}
+
+.filter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border: 1px solid #292929;
+  border-radius: 50px;
+  background-color: #c2dee2;
+}
+
+.filter-section {
+  padding-left: 370px;
+}
+
+p {
+  position: absolute;
+  padding-top: 150px;
+}

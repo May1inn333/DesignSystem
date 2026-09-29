@@ -71,3 +71,23 @@
 strong {
   color: var(--Pink, #e50072);
 }
+
+.filter-button {
+  font-family: "Oswald", sans-serif;
+  color: #292929;
+  font-size: 22px;
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.filter-button:hover {
+  color: var(--Pink, #e50072);
+  transition: color 0.5s ease;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #292929;
+}
