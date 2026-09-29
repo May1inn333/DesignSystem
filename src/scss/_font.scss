@@ -68,7 +68,7 @@
   transition: color 0.5s ease;
 }
 
-strong {
+.langue {
   color: var(--Pink, #e50072);
 }
 
@@ -90,4 +90,8 @@ p {
   font-size: 22px;
   text-transform: uppercase;
   color: #292929;
+}
+
+strong {
+  color: var(--Dark-Blue, #222b2a);
 }
