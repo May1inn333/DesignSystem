@@ -1,0 +1,45 @@
+.ligne {
+  position: absolute;
+  border-right: 1px solid black;
+  height: 2130px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 203px;
+  height: 92px;
+  aspect-ratio: 203/92;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  width: 263.422px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -20px;
+  padding-right: 300px;
+  padding-top: 70px;
+}
+
+.rubrique {
+  max-width: fit-content;
+}
+
+.nav-item {
+  transform: rotate(-8.428deg);
+}
+
+.nav-item-active {
+  transform: rotate(-8.428deg);
+}
+
+h1 {
+  position: absolute;
+  top: 60px;
+  left: 300px;
+}

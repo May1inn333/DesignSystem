@@ -1,0 +1,65 @@
+.nav {
+  font-family: Oswald;
+}
+
+.nav-item {
+  color: var(--Dark-Blue, #222b2a);
+  font-family: Oswald;
+  font-size: 55.976px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.799px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 3px;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+}
+
+.nav-item-active {
+  color: var(--Dark-Blue, #222b2a);
+  font-family: Oswald;
+  font-size: 55.976px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.799px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 3px;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+}
+
+.nav-item:hover {
+  color: var(--Pink, #e50072);
+}
+
+.nav-item-active {
+  color: var(--Pink, #e50072);
+  text-decoration-thickness: 3px;
+}
+
+h1 {
+  color: var(--Pink, #e50072);
+  font-family: Oswald;
+  font-size: 29.974px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.499px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 3px;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+}
