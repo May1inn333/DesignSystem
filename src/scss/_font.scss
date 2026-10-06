@@ -47,7 +47,7 @@
 }
 
 .menu-item {
-  color: #222b2a;
+  color: var(--Dark-Blue, #222b2a);
   font-family: Oswald;
   font-size: 17.672px;
   font-style: normal;
@@ -95,4 +95,35 @@ p {
 
 strong {
   color: var(--Dark-Blue, #222b2a);
+}
+
+.footer-item {
+  color: #c2dee2;
+  font-family: Oswald;
+  font-size: 17.672px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.884px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+}
+
+.footer-item:hover {
+  color: var(--Pink, #e50072);
+  transition: color 0.5s ease;
+}
+
+.copyright {
+  color: var(--background-color, #c2dee2);
+  font-family: "Andale Mono";
+  font-size: 12.187px;
+  padding-left: 15px;
+  letter-spacing: -0.609px;
+  text-transform: lowercase;
 }

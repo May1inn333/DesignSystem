@@ -1,7 +1,7 @@
 .ligne {
   position: absolute;
   border-right: 1px solid black;
-  height: 2130px;
+  height: 2100px;
   padding-left: 30px;
   padding-top: 30px;
 }
@@ -74,4 +74,47 @@ ul {
 p {
   position: absolute;
   padding-top: 150px;
+}
+
+footer {
+  background-color: var(--Dark-Blue, #222b2a);
+  height: 190px;
+  margin-top: 70px;
+}
+
+.logo-footer {
+  position: absolute;
+  width: 226.915px;
+  height: 111.041px;
+  aspect-ratio: 47/23;
+  padding-top: 10px;
+}
+
+.header-footer {
+  display: flex;
+  gap: 25px;
+  padding-left: 1200px;
+  padding-top: 30px;
+}
+
+.footer-item {
+  transform: rotate(-8.43deg);
+}
+
+.youtube {
+  width: 39px;
+  height: 27px;
+}
+
+.instagram {
+  width: 35px;
+  height: 35px;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 1360px;
+  padding-top: 70px;
 }
