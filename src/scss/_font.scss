@@ -127,3 +127,14 @@ strong {
   letter-spacing: -0.609px;
   text-transform: lowercase;
 }
+
+h1 {
+  color: var(--text-color-default, #272727);
+  font-family: Oswald;
+  font-size: var(--card-title, 50px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+}
