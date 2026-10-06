@@ -74,22 +74,23 @@
 
 .filter-button {
   font-family: "Oswald", sans-serif;
-  color: #292929;
+  color: var(--Dark-Blue, #222b2a);
   font-size: 22px;
   text-transform: uppercase;
   height: 45px;
 }
 
 .filter-button:hover {
-  color: var(--Pink, #e50072);
-  transition: color 0.5s ease;
+  color: #c2dee2;
+  background-color: var(--Dark-Blue, #222b2a);
+  transition: 0.5s ease;
 }
 
 p {
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
-  color: #292929;
+  color: var(--Dark-Blue, #222b2a);
 }
 
 strong {

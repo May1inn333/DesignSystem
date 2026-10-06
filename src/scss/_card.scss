@@ -3,7 +3,7 @@
 .actualites {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 34px;
+  column-gap: 10px;
   row-gap: 64px;
   padding-left: 370px;
   padding-top: 300px;
@@ -16,7 +16,7 @@
 
 .image-container {
   position: relative;
-  width: 100%;
+  width: 94%;
   aspect-ratio: 1.84;
   overflow: hidden;
   background-color: #333;
