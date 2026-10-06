@@ -129,12 +129,41 @@ strong {
 }
 
 h1 {
+  position: absolute;
   color: var(--text-color-default, #272727);
-  font-family: Oswald;
-  font-size: var(--card-title, 50px);
-  font-style: normal;
+  font-size: 60px;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: -2.5px;
   text-transform: uppercase;
+  padding-top: 560px;
+}
+
+h2 {
+  position: absolute;
+  color: var(--text-color-default, #272727);
+
+  /* Desktop/article-subtitle */
+  font-family: Oswald;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  text-transform: uppercase;
+  padding-top: 640px;
+}
+
+.infos-button {
+  font-family: "Oswald", sans-serif;
+  color: var(--Dark-Blue, #222b2a);
+  font-size: 22px;
+  text-transform: uppercase;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  border: 1px solid #292929;
+  border-radius: 50px;
+  background-color: #c2dee2;
 }

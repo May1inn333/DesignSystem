@@ -132,3 +132,38 @@ footer {
   height: 447.04px;
   align-self: stretch;
 }
+
+.infos-button {
+  margin-top: 720px;
+}
+
+.button-genre {
+  display: flex;
+  gap: 20px;
+}
+
+.auteur {
+  display: flex;
+  width: 150px;
+  height: 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+
+.profil {
+  width: 27px;
+  height: 27px;
+  aspect-ratio: 1/1;
+}
+
+h5 {
+  color: var(--text-color-default, #272727);
+  font-size: var(--badge-small, 16px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
