@@ -141,7 +141,7 @@ h1 {
 h2 {
   position: absolute;
   color: var(--text-color-default, #272727);
-
+  margin-top: 625px;
   /* Desktop/article-subtitle */
   font-family: Oswald;
   font-size: 35px;
@@ -150,7 +150,6 @@ h2 {
   line-height: normal;
   letter-spacing: -1.2px;
   text-transform: uppercase;
-  padding-top: 640px;
 }
 
 .infos-button {
@@ -166,4 +165,19 @@ h2 {
   border: 1px solid #292929;
   border-radius: 50px;
   background-color: #c2dee2;
+}
+
+.content-infos {
+  width: 828px;
+  color: var(--text-color-default, #272727);
+  text-align: justify;
+  text-transform: initial;
+  margin-left: 383px;
+  padding-top: 410px;
+  /* Desktop/article-chapo */
+  font-family: Almarai, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 122.554%; /* 24.511px */
 }
