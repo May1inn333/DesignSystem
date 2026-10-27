@@ -104,14 +104,12 @@ strong {
   font-weight: 400;
   letter-spacing: -2.5px;
   text-transform: uppercase;
-  padding-top: 560px;
 }
 
 .card-infos h2 {
   position: absolute;
   color: var(--text-color-default, #272727);
-  margin-top: 625px;
-
+  padding-top: 75px;
   font-family: Oswald;
   font-size: 35px;
   font-style: normal;
@@ -122,6 +120,7 @@ strong {
 }
 
 .infos-button {
+  margin-top: 140px;
   font-family: "Oswald", sans-serif;
   color: var(--Dark-Blue, #222b2a);
   font-size: 22px;

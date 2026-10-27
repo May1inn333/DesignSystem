@@ -24,6 +24,8 @@ ul {
   height: 100vh;
   padding: 2rem;
   box-sizing: border-box;
+  height: fit-content;
+  width: fit-content;
 }
 
 .nav-item {
@@ -96,21 +98,16 @@ p {
 }
 
 .img-info {
-  position: absolute;
-  width: 1070px;
-  height: 430px;
-  aspect-ratio: 207/79;
-  margin-top: 130px;
+  width: 850px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
 }
 
 .card-infos {
   margin-left: 380px;
   height: 447.04px;
   align-self: stretch;
-}
-
-.infos-button {
-  margin-top: 720px;
 }
 
 .button-genre {
