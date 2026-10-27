@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -14,7 +8,22 @@ video {
   display: block;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
 body {
-  background: #c2dee2;
-  font-family: Oswald;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #c2dee2;
+  font-family: "Oswald", sans-serif;
 }

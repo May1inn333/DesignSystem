@@ -1,14 +1,7 @@
-.ligne {
-  position: absolute;
-  border-right: 1px solid black;
-  height: 2100px;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
 .logo {
   width: 203px;
   height: 92px;
+
   aspect-ratio: 203/92;
 }
 
@@ -16,15 +9,19 @@ ul {
   list-style: none;
 }
 
-.rubrique {
-  max-width: fit-content;
-  display: flex;
-  width: 263.422px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: -20px;
-  padding-right: 300px;
-  padding-top: 70px;
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr; /* sidebar | contenu */
+  min-height: 100vh;
+}
+
+.grid-rubrique {
+  position: sticky; /* reste visible au scroll */
+  top: 0;
+  align-self: start; /* sinon la sidebar s'étire sur toute la hauteur */
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .nav-item {
@@ -36,12 +33,15 @@ ul {
 }
 
 .header {
-  position: absolute;
-  padding-top: 50px;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: clamp(10px, 2vw, 25px);
+  max-width: calc(100% - 30px);
+  box-sizing: border-box;
+  padding: 50px 0 0;
+  margin: 0;
   list-style: none;
-  gap: 25px;
-  padding-left: 1200px;
 }
 
 .menu-item {
@@ -49,12 +49,22 @@ ul {
 }
 
 .button-container {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 14px;
-  padding-top: 150px;
-  padding-left: 90px;
+  align-items: center;
+  gap: 12px 14px;
+  padding-top: 40px;
+  padding-left: 16px;
+  padding-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.filtres,
+.actualites {
+  width: 90%;
+  box-sizing: border-box;
 }
 
 .filter-button {
@@ -67,56 +77,20 @@ ul {
   background-color: #c2dee2;
 }
 
-.filter-section {
-  padding-left: 370px;
+.filtres {
+  display: flex;
+  width: fit-content;
+  padding-left: 350px;
+  padding-top: 40px;
+}
+
+.filtres button {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 p {
-  position: absolute;
-  padding-top: 150px;
-}
-
-footer {
-  background-color: var(--Dark-Blue, #222b2a);
-  height: 190px;
-  margin-top: 70px;
-}
-
-.logo-footer {
-  position: absolute;
-  width: 226.915px;
-  height: 111.041px;
-  aspect-ratio: 47/23;
-  padding-top: 10px;
-}
-
-.header-footer {
-  display: flex;
-  gap: 25px;
-  padding-left: 1200px;
-  padding-top: 30px;
-}
-
-.footer-item {
-  transform: rotate(-8.43deg);
-}
-
-.youtube {
-  width: 39px;
-  height: 27px;
-}
-
-.instagram {
-  width: 35px;
-  height: 35px;
-}
-
-.app {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding-left: 1360px;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 .img-info {
@@ -166,8 +140,4 @@ h5 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-}
-
-a {
-  padding-top: 70px;
 }
