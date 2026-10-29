@@ -39,7 +39,8 @@
 }
 
 .articleHOME {
-  margin-left: 330px;
+  width: 80%;
+  padding-left: 43px;
   margin-top: 100px;
   padding-bottom: 100px;
 }
@@ -92,14 +93,16 @@
 
 /* Grand titre */
 .articleHOME h1 {
+  overflow-wrap: anywhere;
   font-size: clamp(32px, 5.7vw, 68px);
   font-weight: 300;
+  width: 99%;
   line-height: 1.1;
   letter-spacing: -1.8px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-right: 100px;
+
   color: var(--text-color-default, #272727);
   padding-top: 13px;
 }
@@ -330,4 +333,65 @@
   border-bottom: 1px solid #292929;
   margin-bottom: 15px;
   width: 928px;
+}
+
+.logo-accueil {
+  position: absolute;
+  width: 203px;
+  height: 92px;
+  aspect-ratio: 203/92;
+  margin-left: 35px;
+  margin-top: 30;
+}
+
+.layout-top {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  padding-top: 70px;
+}
+
+.carte-musique {
+  width: 80%;
+  max-width: none;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.accueil-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 384/209;
+  overflow: hidden;
+}
+
+.accueil-image-container img {
+  display: block;
+  width: 90%;
+  object-fit: cover;
+}
+
+.grid-musique-accueil {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+  margin-left: 310px;
+  width: 80%;
+  padding-right: 75px;
+  padding-left: 20px;
+}
+
+.musique-accueil-image-container {
+  position: relative;
+  width: 100%;
+
+  align-self: stretch;
+  aspect-ratio: 384/209;
+  overflow: hidden;
+}
+
+.musique-accueil-image-container img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }

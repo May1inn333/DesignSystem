@@ -1,8 +1,5 @@
-.logo {
+.logo img {
   position: absolute;
-  width: 203px;
-  height: 92px;
-  aspect-ratio: 203/92;
   margin-left: 35px;
   margin-top: -260px;
 }
@@ -107,7 +104,6 @@ ul {
 }
 
 .card-infos {
-  margin-left: 380px;
   height: 447.04px;
   align-self: stretch;
 }
@@ -154,4 +150,34 @@ h5 {
   height: 92px;
   margin-left: 35px;
   margin-top: 37px;
+}
+
+.logo {
+  position: absolute;
+  width: 203px;
+  height: 92px;
+  margin-left: 35px;
+  margin-top: 37px;
+}
+
+.grid-lecteurs {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+  margin-left: 310px;
+  width: 80%;
+  padding-right: 80px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.theme-lecteurs {
+  font-size: 30px;
+  color: var(--text-color-default, #272727);
+  border-bottom: 1px solid #292929;
+  margin-bottom: 15px;
+  margin-left: 330px;
+  width: 928px;
+  padding-top: 100px;
 }
