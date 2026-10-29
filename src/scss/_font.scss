@@ -5,15 +5,15 @@
 .nav-item {
   color: var(--Dark-Blue, #222b2a);
   font-family: Oswald;
-  font-size: 55.976px;
+  font-size: 3.4985rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -2.799px;
+  letter-spacing: -0.175rem;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 0.1875rem;
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -23,15 +23,15 @@
 .nav-item-active {
   color: var(--Dark-Blue, #222b2a);
   font-family: Oswald;
-  font-size: 55.976px;
+  font-size: 3.4985rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -2.799px;
+  letter-spacing: -0.175rem;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 0.1875rem;
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-transform: uppercase;
@@ -49,11 +49,11 @@
 .menu-item {
   color: var(--Dark-Blue, #222b2a);
   font-family: Oswald;
-  font-size: 17.672px;
+  font-size: 1.105rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.884px;
+  letter-spacing: -0.055rem;
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-skip-ink: auto;
@@ -75,9 +75,9 @@
 .filter-button {
   font-family: "Oswald", sans-serif;
   color: var(--Dark-Blue, #222b2a);
-  font-size: 22px;
+  font-size: 1.375rem;
   text-transform: uppercase;
-  height: 45px;
+  height: 2.8125rem;
 }
 
 .filter-button:hover {
@@ -88,7 +88,7 @@
 
 p {
   font-family: "Oswald", sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   text-transform: uppercase;
   color: var(--Dark-Blue, #222b2a);
 }
@@ -100,55 +100,55 @@ strong {
 .card-infos h1 {
   position: absolute;
   color: var(--text-color-default, #272727);
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 400;
-  letter-spacing: -2.5px;
+  letter-spacing: -0.156rem;
   text-transform: uppercase;
 }
 
 .card-infos h2 {
   position: absolute;
   color: var(--text-color-default, #272727);
-  padding-top: 75px;
+  padding-top: 4.6875rem;
   font-family: Oswald;
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-style: normal;
   font-weight: 350;
   line-height: normal;
-  letter-spacing: -1.2px;
+  letter-spacing: -0.075rem;
   text-transform: uppercase;
 }
 
 .infos-button {
-  margin-top: 140px;
+  margin-top: 8.75rem;
   font-family: "Oswald", sans-serif;
   color: var(--Dark-Blue, #222b2a);
-  font-size: 22px;
+  font-size: 1.375rem;
   text-transform: uppercase;
-  height: 45px;
+  height: 2.8125rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0 24px;
+  padding: 0 1.5rem;
   border: 1px solid #292929;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   background-color: #c2dee2;
 }
 
 .content-infos {
-  width: 828px;
+  width: 51.75rem;
   color: var(--text-color-default, #272727);
   text-align: justify;
   text-transform: initial;
-  padding-top: 190px;
+  padding-top: 11.875rem;
   font-family: Almarai, sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: 122.554%;
 }
 
 .page-content {
-  margin-left: 370px;
-  margin-top: -600px;
+  margin-left: 23.125rem;
+  margin-top: -37.5rem;
 }
