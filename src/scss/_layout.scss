@@ -14,9 +14,15 @@ ul {
 .layout {
   display: grid;
   grid-template-columns: 280px 1fr; /* sidebar | contenu */
-  min-height: 100vh;
 }
 
+.layout-infos {
+  position: sticky; /* reste visible au scroll */
+  top: 0;
+  padding-top: 300px;
+  align-self: start; /* sinon la sidebar s'étire sur toute la hauteur */
+  width: fit-content;
+}
 .grid-rubrique {
   position: sticky; /* reste visible au scroll */
   top: 0;
@@ -100,7 +106,7 @@ p {
 .img-info {
   width: 850px;
   height: 350px;
-  position: relative;
+
   overflow: hidden;
 }
 
@@ -139,4 +145,17 @@ h5 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.logo-infos a {
+  width: 203px;
+  height: 92px;
+}
+
+.logo-infos {
+  position: absolute;
+  width: 203px;
+  height: 92px;
+  margin-left: 35px;
+  margin-top: 37px;
 }
